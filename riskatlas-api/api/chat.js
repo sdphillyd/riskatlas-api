@@ -1,5 +1,5 @@
 // api/chat.js
-import Anthropic from '@anthropic-ai/sdk';
+const Anthropic = require('@anthropic-ai/sdk').default;
 
 const KNOWLEDGE_BASE = `
 # RiskAtlas Knowledge Base
