@@ -215,7 +215,7 @@ export default async function handler(req, res) {
 
     // Call Claude Haiku with embedded knowledge
     const response = await anthropic.messages.create({
-      model: 'claude-haiku-4-20250514',
+      model: 'claude-3-5-haiku-20241022',
       max_tokens: 1024,
       system: `You are a helpful assistant for RiskAtlas, a risk intelligence platform for the insurance industry. 
 
